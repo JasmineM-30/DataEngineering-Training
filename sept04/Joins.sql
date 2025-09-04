@@ -1,0 +1,46 @@
+CREATE DATABASE hexa_db;
+USE hexa_db;
+CREATE TABLE departments (
+	dept_id INT PRIMARY KEY AUTO_INCREMENT,
+    dept_name VARCHAR(50) NOT NULL,
+    location VARCHAR (50)
+);
+INSERT INTO departments (dept_id, dept_name, location) VALUES
+(1, 'IT', 'Bangalore'),
+(2, 'HR', 'Hyderabad'),
+(3, 'Finance', 'Mumbai'),
+(4, 'Marketing', 'Delhi'),
+(5, 'Operations', 'Chennai');
+SELECT * FROM departments;
+CREATE TABLE employees (
+	empt_id INT PRIMARY KEY auto_increment,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    age INT,
+    dept_id INT,
+    salary DECIMAL(10,2),
+    foreign key (dept_id) references departments(dept_id)
+);
+INSERT INTO employees (empt_id, first_name, last_name, age, dept_id, salary) VALUES
+(101, 'Amit', 'Verma', 28, 1, 55000.00),     -- belongs to IT
+(102, 'Sneha', 'Reddy', 32, 2, 60000.00),    -- belongs to HR
+(103, 'Ravi', 'Sharma', 26, NULL, 48000.00), -- employee with NO department
+(104, 'Pooja', 'Iyer', 29, 4, 52000.00),     -- belongs to Marketing
+(105, 'Arjun', 'Mehta', 35, 1, 75000.00);    -- belongs to IT
+
+SELECT e.empt_id, e.first_name, e.last_name,d.dept_name, d.location 
+FROM employees e INNER JOIN departments d
+ON e.dept_id = d.dept_id;
+SELECT e.empt_id, e.first_name, e.last_name, d.dept_name, d.location 
+FROM employees e LEFT JOIN departments d
+ON e.dept_id = d.dept_id;
+SELECT e.empt_id, e.first_name, e.last_name,d.dept_name, d.location 
+FROM employees e RIGHT JOIN departments d
+ON e.dept_id = d.dept_id;
+SELECT e.empt_id, e.first_name, e.last_name,d.dept_name, d.location 
+FROM employees e LEFT JOIN departments d
+ON e.dept_id = d.dept_id
+UNION
+SELECT e.empt_id, e.first_name, e.last_name,d.dept_name, d.location 
+FROM employees e RIGHT JOIN departments d
+ON e.dept_id = d.dept_id;
