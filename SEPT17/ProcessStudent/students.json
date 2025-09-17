@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Rahul Sharma",
+    "age": 21,
+    "marks": { "Math": 90, "Physics": 85, "Computer Science": 95 }
+  },
+  {
+    "name": "Priya Singh",
+    "age": 22,
+    "marks": { "Math": 88, "Physics": 92, "Computer Science": 89 }
+  },
+  {
+    "name": "Aman Kumar",
+    "age": 20,
+    "marks": { "Math": 75, "Physics": 80, "Computer Science": 70 }
+  }
+]
