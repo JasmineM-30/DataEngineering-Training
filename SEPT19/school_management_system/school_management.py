@@ -84,7 +84,7 @@ def load_teachers(filename='teachers.csv'):
                 name=row['name'],
                 age=35,
                 subject=row['subject'],
-                salary=float(row['salary'])
+                salary=int(row['salary'])
             ))
     return teachers
 
