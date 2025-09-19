@@ -1,0 +1,25 @@
+[
+{
+"order_id": 101,
+"customer": "Rahul Sharma",
+"items": [
+{"product_id": 1, "qty": 1},
+{"product_id": 4, "qty": 3}
+]
+},
+{
+"order_id": 102,
+"customer": "Priya Singh",
+"items": [
+{"product_id": 2, "qty": 2}
+]
+},
+{
+"order_id": 103,
+"customer": "Aman Kumar",
+"items": [
+{"product_id": 3, "qty": 4},
+{"product_id": 4, "qty": 2}
+]
+}
+]
