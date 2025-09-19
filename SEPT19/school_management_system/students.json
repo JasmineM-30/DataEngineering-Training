@@ -1,0 +1,8 @@
+[
+{ "id": 1, "name": "Rahul Sharma", "age": 16, "grade": "10", "marks": { "Math": 90,
+"Science": 85, "English": 88 } },
+{ "id": 2, "name": "Priya Singh", "age": 17, "grade": "11", "marks": { "Math": 78,
+"Science": 82, "English": 91 } },
+{ "id": 3, "name": "Aman Kumar", "age": 16, "grade": "10", "marks": { "Math": 95,
+"Science": 92, "English": 89 } }
+]
