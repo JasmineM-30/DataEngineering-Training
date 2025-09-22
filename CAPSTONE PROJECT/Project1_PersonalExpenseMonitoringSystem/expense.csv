@@ -1,0 +1,15 @@
+expense_id,user_id,category,amount,expense_date,description
+1,1,Groceries,45.75,2025-09-01,Weekly grocery shopping
+2,1,Utilities,60.30,2025-09-05,Electricity bill
+3,2,Groceries,23.00,2025-09-03,Bought fruits
+4,3,Entertainment,120.00,2025-09-07,Concert tickets
+5,2,Utilities,40.50,2025-09-10,Water bill
+6,3,Groceries,30.00,2025-09-11,Grocery snacks
+7,1,Entertainment,15.00,2025-09-12,Movie night
+8,4,Transportation,25.00,2025-09-13,Taxi fare
+9,5,Healthcare,40.00,2025-09-12,Doctor appointment
+10,6,Education,300.00,2025-09-10,Online course fee
+11,7,Dining Out,55.00,2025-09-11,Dinner at restaurant
+12,4,Groceries,70.00,2025-09-14,Groceries weekly
+13,5,Utilities,80.50,2025-09-15,Internet bill payment
+14,1,Fitness,40.00,2025-09-16,Monthly gym membership
