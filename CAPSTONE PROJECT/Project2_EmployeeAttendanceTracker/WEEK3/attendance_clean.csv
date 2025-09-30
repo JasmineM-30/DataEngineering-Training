@@ -6,5 +6,5 @@ employeeid,department,clockin,clockout,status,taskscompleted
 5,Marketing,2025-09-10 08:55:00,2025-09-10 17:05:00,Present,2
 1,IT,2025-09-11 09:10:00,2025-09-11 17:30:00,Present,4
 2,HR,2025-09-11 08:40:00,2025-09-11 17:20:00,Present,5
-6,Finance,,,,Absent,
-7,Marketing,,,,Absent,
+6,Finance,,,,Absent
+7,Marketing,,,,Absent
