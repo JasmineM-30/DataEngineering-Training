@@ -1,0 +1,7 @@
+user_id,username,email,password,created_at,monthly_budget
+1,alice,alice@example.com,pass123,2025-01-01 00:00:00,500
+2,bob,bob@example.com,pass456,2025-01-01 00:00:00,600
+3,carol,carol@example.com,pass789,2025-01-01 00:00:00,450
+4,dave,dave@example.com,pass321,2025-01-01 00:00:00,550
+5,emily,emily@example.com,pass654,2025-01-01 00:00:00,500
+6,frank,frank@example.com,pass987,2025-01-01 00:00:00,700
