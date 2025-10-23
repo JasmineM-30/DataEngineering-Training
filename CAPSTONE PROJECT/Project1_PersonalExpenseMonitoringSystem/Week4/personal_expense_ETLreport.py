@@ -1,9 +1,7 @@
-# Databricks notebook source
-# Databricks notebook source
 from pyspark.sql.functions import col, sum as spark_sum, avg, month, year, when, to_date, trim
 
 # === Step 1: Load users and expenses data from DBFS ===
-users_path = "dbfs:/FileStore/tables/users_cleaned.csv"   # Adjust paths if necessary
+users_path = "dbfs:/FileStore/tables/users_cleaned.csv" 
 expenses_path = "dbfs:/FileStore/tables/expense.csv"
 
 users_df = spark.read.option("header", True).csv(users_path, inferSchema=True)
