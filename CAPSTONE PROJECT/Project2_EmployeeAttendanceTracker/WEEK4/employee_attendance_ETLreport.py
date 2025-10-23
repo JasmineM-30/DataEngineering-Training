@@ -1,4 +1,3 @@
-# Databricks notebook source
 from pyspark.sql.functions import col, to_timestamp, trim, when, hour, avg, sum
 
 # === Step 1: Load employee attendance CSV ===
