@@ -1,0 +1,72 @@
+Azure DevOps – Theoretical Assignment
+Problem Statement:
+You are part of a software development team working on a new internal tool named
+“TeamPulse” — a web-based project management dashboard that helps organizations track
+productivity, project milestones, and collaboration efficiency.
+Your task is to structure this project in Azure DevOps, defining a clear hierarchy of
+Epics → Features → User Stories → Tasks.
+This is a theoretical and planning-focused exercise — no actual code is required. All
+items will be created and visualized in the Azure DevOps Boards.
+Objective:
+To demonstrate your understanding of Agile Project Structuring and how Azure DevOps
+supports:
+Work item management
+Team collaboration
+Sprint planning
+Traceability and reporting
+Epic:
+TeamPulse – Project Management Dashboard
+Features (4 total):
+1. User Authentication & Role Management
+2. Dashboard Analytics & KPIs
+3. Task & Sprint Management
+4. Team Chat & Notifications
+User Stories Example (for Feature 1):
+1. As an Admin, I want to create user accounts so that I can manage access.
+2. As a Manager, I want to assign roles to users for access control.
+3. As a User, I want to log in using my credentials to view assigned tasks.
+Tasks Example (for one story):
+1. Define user roles and permissions.
+2. Design the login and registration form.
+3. Create theoretical data flow diagrams.
+4. Document password reset logic.
+Submission Requirements:
+Each participant must:
+1. Create the Epic, Features, User Stories, and Tasks in Azure DevOps.
+
+2. Capture screenshots for:
+Epic overview page
+Features under the Epic
+User stories and tasks
+Board or backlog view showing hierarchy
+3. Write a short explanation (4–5 lines) on:
+How Azure DevOps supports Agile methodology
+Benefits of breaking large projects into smaller work items
+
+Additional Sections (recommended):
+1
+Iteration/Sprint Planning
+Create one iteration (Sprint 1) in Azure DevOps.
+Assign a few user stories or tasks to this sprint.
+Take a screenshot of the sprint view. (This shows understanding of how planning
+is done in real-world projects.)
+2
+Tags and Priorities
+Add tags (like “Frontend”, “Backend”, “Database”) to user stories.
+Assign priority levels (P1 – High, P2 – Medium, P3 – Low). (This builds
+awareness of work item categorization.)
+3
+Acceptance Criteria
+For each user story, define short acceptance criteria (2–3 bullet points). Example:
+User must receive an error message if login fails.
+Only admins can create new accounts.
+4
+Definition of Done (DoD)
+Include a short paragraph explaining what “Done” means for this project. Example:
+“A task is marked as Done when it has been documented, peer-reviewed, and ready
+for integration testing.”
+5
+Burndown Chart (Optional – Bonus Section)
+Open the Analytics or Dashboard tab in Azure DevOps.
+View the Burndown chart for Sprint 1.
+Take a screenshot (optional for extra credit).
