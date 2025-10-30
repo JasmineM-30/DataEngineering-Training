@@ -1,0 +1,6 @@
+sale_id,product_id,quantity_sold,sale_date,region
+12,3,7,2025-10-27,West
+13,5,6,2025-10-28,North
+14,1,8,2025-10-28,East
+15,2,12,2025-10-28,South
+16,4,9,2025-10-29,West
